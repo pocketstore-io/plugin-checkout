@@ -1,0 +1,7 @@
+{
+  "vendor": "pocketstore-io",
+  "name": "checkout",
+  "version": "0.0.1",
+  "type": "plugin",
+  "prio": 100
+}
