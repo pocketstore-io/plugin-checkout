@@ -1,12 +1,62 @@
 {
+  "payment": {
+    "methods": {
+      "vorkasse": "Vorkasse"
+    }
+  },
+  "shipping": {
+    "methods": {
+      "dhl": "DHL"
+    }
+  },
   "checkout": {
+    "currency": {
+      "dollar": "Dollar",
+      "euro": "Euro"
+    },
+    "your-order": "Meine Bestellung",
+    "same": "gleich",
+    "blabla": "blabla",
+    "label": {
+      "store": "Filiale",
+      "name": "Name",
+      "surname": "Nachname",
+      "street": "Straße",
+      "number": "Nummer",
+      "zip": "PLZ",
+      "city": "Stadt",
+      "country": "Land"
+    },
+    "continue": {
+      "confirm": "Weiter zur Bestätigung",
+      "customer": "Weiter zur Anmeldung",
+      "addresses": "Weiter zur den Adressen"
+    },
+    "back": {
+      "addresses": "Zurück zu den Adressen",
+      "payment": "Zurück zu Bezahlinfos",
+      "customer": "Zurück zur Anmeldung"
+    },
     "cart": {
-      "headline": "Kasse",
+      "headline": "Warenkorb",
+      "qty": "Anzahl",
+      "price": "Preis",
+      "product": "Produkt",
       "empty": "Der Warenkorb ist aktuell leer"
     },
+    "place-order": "Zahlungspflichtig bestellen",
+    "new-address": "Kundenkonto",
+    "payment-address": "Rechnungsadresse",
+    "shipping-address": "Versandadresse",
     "customer": "Kundenkonto",
-    "payment-and-shipping": "Versand und Bezahlung",
+    "payment-and-shipping": "Bezahlung und Versand",
+    "shipping-and-payment": "Versand und Bezahlung",
     "addresses": "Adressen",
-    "confirm": "Bestätigung"
+    "confirm": "Bestätigung",
+    "subtotal": "Bestätigung",
+    "tax": "Bestätigung",
+    "total": "Bestätigung",
+    "adressen": "Bestätigung",
+    "need-help": "Bestätigung",
   }
 }
