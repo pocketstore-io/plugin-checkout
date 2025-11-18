@@ -1,0 +1,12 @@
+{
+  "checkout": {
+    "cart": {
+      "headline": "Kasse",
+      "empty": "Der Warenkorb ist aktuell leer"
+    },
+    "customer": "Kundenkonto",
+    "payment-and-shipping": "Versand und Bezahlung",
+    "addresses": "Adressen",
+    "confirm": "Bestätigung"
+  }
+}
