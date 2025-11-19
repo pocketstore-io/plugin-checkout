@@ -1,5 +1,10 @@
 {
   "payment": {
+    "label": {
+      "iban": "IBAN",
+      "kontoinhaber": "Kontoinhaber",
+      "bic": "BIC"
+    },
     "methods": {
       "vorkasse": "Vorkasse",
       "paypal": "PayPal"
