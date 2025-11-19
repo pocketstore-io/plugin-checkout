@@ -12,8 +12,8 @@
 import { useLocalStorage } from "@vueuse/core";
 import { loadScript } from "@paypal/paypal-js";
 import { cartToPurchaseUnits } from "~/utils/paypal";
-import findSettingByKey from "~/utils/settings";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
+import config from '~/pocketstore.json'
 
 const { locked } = defineProps({
     locked: {
@@ -32,8 +32,8 @@ const resetLock = () => {};
 
 const initPaypal = () => {
     loadScript({
-        "client-id": findSettingByKey("paypal")["client-id"],
-        currency: findSettingByKey("paypal")["currency"],
+        "client-id": config.payment.paypal.id,
+        currency: config.payment.paypal.currency,
     })
         .then((paypal) => {
             paypal
