@@ -48,6 +48,8 @@
       "product": "Produkt",
       "empty": "Der Warenkorb ist aktuell leer"
     },
+    "shipping-method": "Versandmethode",
+    "payment-method": "Bezahlmethode",
     "place-order": "Zahlungspflichtig bestellen",
     "new-address": "Kundenkonto",
     "payment-address": "Rechnungsadresse",
