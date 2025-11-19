@@ -13,25 +13,11 @@
 import {useLocalStorage} from "@vueuse/core";
 import {loadScript} from "@paypal/paypal-js";
 import {cartToPurchaseUnits} from "~/utils/paypal";
-import {faTrash} from "@fortawesome/free-solid-svg-icons";
 import config from '~/pocketstore.json'
-
-const {locked} = defineProps({
-  locked: {
-    type: Boolean,
-    required: false,
-    default: () => {
-      return false;
-    },
-  },
-});
 
 const paymentMethod = useLocalStorage("paymentMethod", "vorkasse", {});
 const checkoutStep = useLocalStorage("checkoutStep", "cart", {});
 const paymentDetails = ref({});
-
-const resetLock = () => {
-};
 
 const initPaypal = () => {
   loadScript({
