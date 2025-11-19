@@ -14,6 +14,9 @@
       "dollar": "Dollar",
       "euro": "Euro"
     },
+    "order": {
+      "cta": "Schlau Kunden überweisen nun"
+    },
     "checkout": "Kasse",
     "your-order": "Meine Bestellung",
     "same": "gleich",
@@ -54,10 +57,10 @@
     "shipping-and-payment": "Versand und Bezahlung",
     "addresses": "Adressen",
     "confirm": "Bestätigung",
-    "subtotal": "Bestätigung",
-    "tax": "Bestätigung",
-    "total": "Bestätigung",
-    "adressen": "Bestätigung",
+    "subtotal": "Ziwschensumme",
+    "tax": "Steuern",
+    "total": "Gesamtsumme",
+    "addressen": "Adressen",
     "need-help": "Bestätigung"
   }
 }
