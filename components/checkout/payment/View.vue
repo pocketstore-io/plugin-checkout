@@ -14,7 +14,7 @@
         <CheckoutPaymentPaypal v-if="option.code == 'paypal' && paymentMethod == 'paypal'"
           :locked="paymentMethodInfo.status == 'locked'" />
         <div v-for="(field, key) in option.options.fields">
-          <label for="" class="label text-sm font-bold">{{ $t('payment.label.' + key) }}</label>
+          <label for="" class="label text-sm font-bold">{{ $t('payment.label.' + field.name.toLowerCase()) }}</label>
           <input v-model="paymentMethodInfo[field.name]" :type="field.type"
             class="input input-bordered bg-white border-2 w-full">
         </div>
