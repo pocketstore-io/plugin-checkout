@@ -1,7 +1,8 @@
 {
   "payment": {
     "methods": {
-      "vorkasse": "Vorkasse"
+      "vorkasse": "Vorkasse",
+      "paypal": "PayPal"
     }
   },
   "shipping": {
