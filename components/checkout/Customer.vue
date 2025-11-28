@@ -147,9 +147,8 @@ const login = async () => {
     }
 };
 
-onMounted(() => {
-    if (pb.authStore.isValid && checkoutStep.value == "customer") {
-        checkoutStep.value = "addresses";
-    }
-});
+useSeoMeta({
+  title: 'Login into Customer Account - '+$t('general.title'),
+  description: 'This is the Kundenkonto of PocketStore.io',
+})
 </script>

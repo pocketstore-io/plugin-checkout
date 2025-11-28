@@ -43,9 +43,8 @@ const valid = useLocalStorage(
 );
 const same = useLocalStorage("same", true, {});
 
-onMounted(() => {
-    useHead({
-        title: "Checkout Adressen - " + t("general.title"),
-    });
-});
+useSeoMeta({
+  title: 'Adressesn - '+$t('general.title'),
+  description: 'This is the Adresses of PocketStore.io',
+})
 </script>

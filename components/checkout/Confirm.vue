@@ -217,9 +217,8 @@ const confirmOrder = async () => {
     shipping.value = null;
 };
 
-onMounted(() => {
-    useHead({
-        title: "Checkout Confirm - " + t("general.title"),
-    });
-});
+useSeoMeta({
+  title: 'Confirm - '+$t('general.title'),
+  description: 'This is the Confrim of PocketStore.io',
+})
 </script>

@@ -24,9 +24,8 @@ import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 const checkoutStep = useLocalStorage("checkoutStep", "cart", {});
 const { t } = useI18n();
 
-onMounted(() => {
-    useHead({
-        title: "Checkout Conditions - " + t("general.title"),
-    });
-});
+useSeoMeta({
+  title: 'Payment & Shipping - '+$t('general.title'),
+  description: 'This is the Payment & Shipping of PocketStore.io',
+})
 </script>
