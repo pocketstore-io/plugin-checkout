@@ -63,8 +63,9 @@ onMounted(() => {
         valid.value.cart = true;
     }
 
-    useHead({
-        title: "Checkout Cart - " + t("general.title"),
-    });
+  useSeoMeta({
+    title: 'Cart - '+$t('general.title'),
+    description: 'This is the Cart of PocketStore.io',
+  })
 });
 </script>
