@@ -10,6 +10,11 @@
       "paypal": "PayPal"
     }
   },
+  "alert": {
+    "paypal": {
+      "success": "Zahlung erfolgreich"
+    }
+  },
   "shipping": {
     "methods": {
       "dhl": "DHL"
