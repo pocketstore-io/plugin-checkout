@@ -51,11 +51,13 @@
       "headline": "Warenkorb",
       "qty": "Anzahl",
       "price": "Preis",
+      "back": "Zurück zum Warenkorb",
       "product": "Produkt",
       "empty": "Der Warenkorb ist aktuell leer"
     },
     "shipping-method": "Versandmethode",
     "payment-method": "Bezahlmethode",
+    "payment": "Bezahlung",
     "place-order": "Zahlungspflichtig bestellen",
     "new-address": "Kundenkonto",
     "payment-address": "Rechnungsadresse",
